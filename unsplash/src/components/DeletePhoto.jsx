@@ -31,7 +31,7 @@ const DeletePhoto = () => {
       open={openDeletePhoto}
       onClose={handleClose}
     >
-      <form className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/5 p-6 rounded-xl bg-white flex flex-col gap-6">
+      <form className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-sm:w-11/12 sm:w-4/5 md:w-3/4 lg:w-2/5 p-6 rounded-xl bg-white flex flex-col gap-6">
         <h1 className="font-medium text-2xl">Are you sure ?</h1>
 
         <div className="flex flex-col gap-2">
