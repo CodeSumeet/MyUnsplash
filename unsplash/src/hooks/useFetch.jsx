@@ -23,7 +23,6 @@ const useFetch = () => {
 
         setAllData(data);
         setFilteredData(data);
-        console.log(data);
       } catch (err) {
         setError(err);
       } finally {
