@@ -12,8 +12,6 @@ const ImageGrid = () => {
 
   const array = [1, 2, 3];
 
-  console.log("Response", data, error, loading);
-
   return (
     <ImageList
       variant="masonry"
